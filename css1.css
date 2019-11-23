@@ -2,6 +2,8 @@
 
 
 
+
+
 ELYAZPRO.TECH */
 
 #wrap {
@@ -28,7 +30,7 @@ ELYAZPRO.TECH */
 }
 
 .btn-slide2 {
-    border: 2px solid #558FEB;
+    border: 2px solid #0993f5;
 }
 
 .btn-slide:hover {
@@ -36,7 +38,7 @@ ELYAZPRO.TECH */
 }
 
 .btn-slide2:hover {
-    background-color: #DB5252;
+    background-color: #44c1f1;
 }
 
 .btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
@@ -47,7 +49,7 @@ ELYAZPRO.TECH */
 }
 
 .btn-slide2:hover span.circle2 {
-    color: #DB5252;
+    color: #35c4e4;
 }
 
 .btn-slide:hover span.title, .btn-slide2:hover span.title2 {
@@ -95,7 +97,7 @@ ELYAZPRO.TECH */
 
 .btn-slide2 span.title2,
   .btn-slide2 span.title-hover2 {
-    color: #2FA8D1;
+    color: #04d4ca;
     left: 80px;
 }
 
@@ -183,6 +185,8 @@ ELYAZPRO.TECH */
      width:450px;
     margin-top:35px;
 }
+
+
 
 
 
