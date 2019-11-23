@@ -1,0 +1,253 @@
+
+
+
+
+
+
+ELYAZPRO.TECH */
+
+#wrap {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#wrap br {
+    display: none;
+}
+
+.btn-slide, .btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #363050;
+    border: 2px solid #0099cc;
+    margin: 10px;
+    transition: .5s;
+}
+
+.btn-slide2 {
+    border: 2px solid #0993f5;
+}
+
+.btn-slide:hover {
+    background-color: #0099cc;
+}
+
+.btn-slide2:hover {
+    background-color: #44c1f1;
+}
+
+.btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+}
+
+.btn-slide2:hover span.circle2 {
+    color: #35c4e4;
+}
+
+.btn-slide:hover span.title, .btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+
+.btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide span.circle, .btn-slide2 span.circle2 {
+    display: block;
+    background-color: #2e9fff;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide2 span.circle2 {
+    background-color: #DB5252;
+}
+
+.btn-slide span.title,
+  .btn-slide span.title-hover, .btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #30abd5;
+    transition: .5s;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: #04d4ca;
+    left: 80px;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* CSS Contact */
+ #ContactForm1,#ContactForm1 br{
+    display:none;
+}
+ #ContactForm1_contact-form-name, #ContactForm1_contact-form-email{
+     width:50%;
+    height:auto;
+    margin:5px auto;
+    padding:10px;
+    background:#fff;
+    color:#444;
+    border:1px solid #e9e9e9;
+    border-radius:3px;
+    transition:all 0.5s ease-out;
+}
+ #ContactForm1_contact-form-email-message{
+    width:450px;
+    height:175px;
+    margin:5px 0;
+    padding:10px;
+    background:#fff;
+    color:#444;
+    font-family:&#39;
+    Open Sans&#39;
+    ,sans-serif;
+    border:1px solid #e9e9e9;
+    border-radius:3px;
+    transition:all 0.5s ease-out;
+}
+ #ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus{
+    outline:none;
+    background:#fff;
+    color:#666;
+    border-color:rgba(81,203,238,1);
+    box-shadow:0 0 5px rgba(81,203,238,0.7);
+}
+ #ContactForm1_contact-form-submit {
+    font-family: 'Noto Kufi Arabic';
+    float:right;
+    background:#f3f3f3;
+    color:#aaa;
+    margin:10px auto;
+    vertical-align:middle;
+    cursor:pointer;
+    padding:10px 18px!important;
+    font-weight:700;
+    font-size:14px;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    border:none;
+    border-radius:4rem;
+    background-image: linear-gradient(-95deg, #f53b3b 0%, #f53b3b 50%, transparent 50%, transparent 100%);
+    background-size:200%;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    transition: background-position .4s ease, color .4s ease;
+    height: initial;
+    line-height: initial;
+}
+ #ContactForm1_contact-form-submit:hover {
+    color:#fff;
+    background-position:100% 0;
+}
+ #ContactForm1_contact-form-error-message, #ContactForm1_contact-form-success-message{
+     width:450px;
+    margin-top:35px;
+}
+
+
+
+/*----------مواقع التواصل------------*/
+.list-unstyled{padding-right:0;list-style:none;margin:2px}
+.list-inline li{display:inline-block;padding-left:5px;padding-right:5px;margin-bottom:10px}
+.tl-colored-social .fa,.tl-social-icons .fa{font-size:16px}
+.tl-colored-social .fa,.tl-social-icons .fa{width:35px;height:35px;line-height:35px;text-align:center;color:#FFF;color:rgba(255,255,255,0.8)}
+.tl-colored-social.icon-circle .fa,.tl-social-icons.icon-circle .fa{border-radius:50%}
+.tl-colored-social.icon-rounded .fa,.tl-social-icons.icon-rounded .fa{border-radius:2px}
+.tl-colored-social.icon-flat .fa,.tl-social-icons.icon-flat .fa{border-radius:0}
+.tl-colored-social .fa:hover,.tl-colored-social .fa:active,.tl-social-icons .fa:hover,.tl-social-icons .fa:active{color:#FFF}
+.tl-colored-social.icon-zoom .fa:hover,.tl-colored-social.icon-zoom .fa:active,.tl-social-icons.icon-zoom .fa:hover,.tl-social-icons.icon-zoom .fa:active,.tl-social-sidebar li:hover{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1)}
+.tl-colored-social.icon-rotate .fa:hover,.tl-colored-social.icon-rotate .fa:active,.tl-social-icons.icon-rotate .fa:hover,.tl-social-icons.icon-rotate .fa:active{-webkit-transform:scale(1.1) rotate(360deg);-moz-transform:scale(1.1) rotate(360deg);-ms-transform:scale(1.1) rotate(360deg);-o-transform:scale(1.1) rotate(360deg);transform:scale(1.1) rotate(360deg)}
+.tl-colored-social .fa-dribbble,.tl-social-icons .fa-dribbble:hover,.tl-socialicons .tl-dribbble:hover .tl-sicon{background-color:#F46899}
+.tl-colored-social .fa-stumbleupon,.tl-social-icons .fa-stumbleupon:hover{background-color:#eb4924}
+.tl-colored-social .fa-reddit,.tl-social-icons .fa-reddit:hover{background-color:#5f99cf}
+.tl-colored-social .fa-facebook,.tl-social-icons .fa-facebook:hover,.tl-socialicons .tl-facebook:hover .tl-sicon{background-color:#3C599F}
+.tl-colored-social .fa-rss,.tl-social-icons .fa-rss:hover{background-color:#f26522}
+.tl-colored-social .fa-lastfm,.tl-social-icons .fa-lastfm:hover{background-color:#d51007}
+.tl-colored-social .fa-flickr,.tl-social-icons .fa-flickr:hover{background-color:#FF0084}
+.tl-colored-social .fa-instagram,.tl-social-icons .fa-instagram:hover,.tl-socialicons .tl-instagram:hover .tl-sicon{background-color:#685243}
+.tl-colored-social .fa-foursquare,.tl-social-icons .fa-foursquare:hover,.tl-socialicons .tl-foursquare:hover .tl-sicon{background-color:#0086BE}
+.tl-colored-social .fa-github,.tl-social-icons .fa-github:hover,.tl-socialicons .tl-github:hover .tl-sicon{background-color:#070709}
+.tl-colored-social .fa-google-plus,.tl-social-icons .fa-google-plus:hover,.tl-socialicons .tl-googleplus:hover .tl-sicon{background-color:#CF3D2E}
+.tl-colored-social .fa-instagram,.tl-social-icons .fa-instagram:hover{background-color:#A1755C}
+.tl-colored-social .fa-linkedin,.tl-social-icons .fa-linkedin:hover{background-color:#0085AE}
+.tl-colored-social .fa-pinterest,.tl-social-icons .fa-pinterest:hover,.tl-socialicons .tl-pinterest:hover .tl-sicon{background-color:#CC2127}
+.tl-colored-social .fa-twitter,.tl-social-icons .fa-twitter:hover,.tl-socialicons .tl-twitter:hover .tl-sicon{background-color:#32CCFE}
+.tl-colored-social .fa-vk,.tl-social-icons .fa-vk:hover,.tl-socialicons .tl-vk:hover .tl-sicon{background-color:#375474}
+.tl-colored-social .fa-soundcloud,.tl-social-icons .fa-soundcloud:hover,.tl-socialicons .tl-soundcloud:hover .tl-sicon{background-color:#FF4100}
+.tl-colored-social .fa-vine,.tl-social-icons .fa-vine:hover,.tl-socialicons .tl-vine:hover .tl-sicon{background-color:#35B57C}
+.tl-colored-social .fa-xing,.tl-social-icons .fa-xing:hover{background-color:#00555C}
+.tl-colored-social .fa-youtube,.tl-social-icons .fa-youtube:hover,.tl-socialicons .tl-youtube:hover .tl-sicon{background-color:#C52F30}
+.top-social ul li{margin:0;padding:0}
+div#socialicons-top{float:right}
+.top-social .list-unstyled{margin:0}
+.tl-socialicons{text-align:center;overflow:auto;font-size:22px;margin-top:-5px}
+.tl-socialicons .tl-socialInner{position:relative;overflow:hidden}
+.tl-socialicons .tl-social{float:right;width:25%}
+.tl-socialicons .tl-sinn:hover .tl-sicon{color:#fff}
+.tl-socialicons .tl-sicon{display:block;padding:10px 0}
+.tl-socialicons .tl-facebook .tl-sicon{color:#3B5998}
+.tl-socialicons .tl-googleplus .tl-sicon{color:#DD4B39}
+.tl-socialicons .tl-twitter .tl-sicon{color:#2AA9E0}
+.tl-socialicons .tl-instagram .tl-sicon{color:#685243}
+.tl-socialicons .tl-pinterest .tl-sicon{color:#CC2028}
+.tl-socialicons .tl-youtube .tl-sicon{color:#DE1829}
+.tl-socialicons .tl-vine .tl-sicon{color:#35B57C}
+.tl-socialicons .tl-soundcloud .tl-sicon{color:#FF4100}
+.tl-socialicons .tl-vk .tl-sicon{color:#45668e}
+.tl-socialicons .tl-foursquare .tl-sicon{color:#f94877}
+.tl-socialicons .tl-github .tl-sicon{color:#333333}
+.tl-socialicons .tl-dribbble .tl-sicon{color:#ea4c89}
+.tl-socialicons .tl-scount{font-family:Electrolize,ge_dinar_tworegular;display:block;color:#000;padding:5px 0;position:relative;margin-bottom:8px;font-size:13px}
+.tl-social:hover .tl-scount{background:#000;color:#FFF}
+.tl-socialicons .tl-googleplus .tl-sicon{color:#DD4B39}
+.tl-socialicons .tl-sicon{display:block;padding:10px 0}
+.tl-social:hover .tl-scount{background:#7ac143;color:#FFF}
+.tl-socialicons .tl-scount{font-family:Electrolize,ge_dinar_tworegular;display:block;color:#222222;padding:5px 0;position:relative;margin-bottom:8px;font-size:13px}
+.tl-socialicons .tl-sinn:hover .tl-sicon{color:#fff}
+.tl-colored-social .fa-google-plus,.tl-social-icons .fa-google-plus:hover,.tl-socialicons .tl-googleplus:hover .tl-sicon{background-color:#CF3D2E}
+.tl-socialicons .tl-googleplus .tl-sicon{color:#DD4B39}
+.tl-socialicons .tl-sicon{display:block;padding:10px 0}
+
+
