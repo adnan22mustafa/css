@@ -1,3 +1,73 @@
+<![CDATA[/
+.page-menu{width:auto;height:auto;padding:0;margin:0}
+.page-menu ul{margin:0 auto;padding:0;line-height:3em}
+.page-menu ul li{display:inline-block;margin:0 auto;}
+.page-menu ul li a{color: #333; font-size: 16px; border-left: 1px solid #ddd;font-weight: 500; padding: 0 5px; height: 86px; line-height: 86px; transition: all .3s linear;}
+.page-menu ul li a,.page-menu ul li a span{font-family:Google Sans,sans-serif}
+
+.page-menu ul li a span {background: #ffffff; color: $(main.color); padding: 10px 15px;;}
+.page-menu ul li a span i {}
+.first-image {float:left;}
+.first-image img{width:100px;height: auto; margin-bottom: 1.5px; transition: all 0.6s ease-out; margin: 0 15px 0; padding: 10px; margin-left: 0; border: 1px solid #ddd; border-radius: 7px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+.addthis_sharing_toolbox {clear:initial!important}
+.btn-sidebaramp{display:none}
+
+
+
+.status-msg-wrap{font-size:100%;width:auto;margin:0 30px 30px 0;position:relative;padding:0}
+.status-msg-border{border:1px solid #ccc;opacity:.4;width:100%;text-align:center;position:relative;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+.status-msg-bg{background-color:#fff;opacity:.8;width:100%;position:relative;z-index:1}
+.status-msg-body{text-align:center;padding:.3em 0;width:auto;top:0;left:0;right:0;position:absolute;z-index:4}
+.status-msg-hidden{visibility:hidden;padding:.3em 0}
+.status-msg-wrap a{padding-left:.4em;font-weight:500}
+
+.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes slideInUp{0%{-webkit-transform:translateY(100%);transform:translateY(100%);visibility:visible}
+100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@keyframes slideInUp{0%{-webkit-transform:translateY(100%);transform:translateY(100%);visibility:visible}
+100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@media screen and (max-width:880px){
+header {text-align: center; overflow: hidden; position: absolute;}
+.content-wrapper{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+#outer-wrapper{padding:0 7px;}
+.post-body a.img, .post-body .separator a { margin-left: 0; margin-right: 0; }
+#main-wrapper{width:100%;margin:0;padding:0}
+.page-menu{width:100%;margin:0;text-align:center;display:none;}
+.page-menu ul li a{padding:0 20px 0 0;}
+#search-box,.search-wrapper{float:none;display:none;}
+.search-wrapper{margin-top:0;text-align:center;padding:0 0 10px}
+#search-box{width:auto;margin:0}
+#header-wrapper{text-align: center; float: none; display: block; margin-left: 0;}
+#header{max-width:100%;text-align:center;float:none;display:block}
+#header h1,#header p.title{font-size:22px;font-weight:900;height:40px;line-height:40px}
+#sidebar-area{display:none}
+#main{margin:0;padding: 10px;}
+#blog-pager,.blog-pager{margin-right:0}
+.post{overflow:visible;padding:0 0 10px 0 ;}
+.status-msg-wrap{margin:10px 0 30px 0;}
+#footer-wrapper{display:none}
+.credit-right{float:none;margin-top:10px}
+.headerad{margin-bottom:0}
+.headerad amp-img,.headerad img{width:auto;max-width:100%;height:auto;margin:0;}
+.mobile-hide {display:none;}
+}
+@media screen and (max-width:414px){
+.post-image-area,#first .post-thumbnail-frame{width:100%;margin:0 0 10px 0;display:block;float:none;height:auto;}
+.page-menu ul li a{padding:0 10px}
+.post{padding: 0 0 10px 0;}
+.share-post ul {display:none;}
+li.readmore2 {width:100%}
+.home-post{margin:0;padding:0}
+.post h2,.postmeta,.post-body,#first h2.post-title,.first-body{margin-bottom:5px!important;}
+}
+@media screen and (max-width:320px){
+.post h2{font-size:18px}
+}
+@media screen and (max-width:240px){
+.post h1,.post h2{font-size:16px}
+}
 
 #comments{margin-bottom: 15px; background: #fff; border: 1px solid rgb(230, 230, 230); box-shadow: 0 2px 8px rgba(0,0,0,0.05);border-radius:7px}
 #comments h4{font-size: 16px; font-weight: 500; color: #fff; margin: 0 0 1px; padding:8px; background: $(main.color); border-radius: 7px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
@@ -213,6 +283,4 @@ ELYAZPRO.TECH */
 }
 
 
-
-
-
+]]>
